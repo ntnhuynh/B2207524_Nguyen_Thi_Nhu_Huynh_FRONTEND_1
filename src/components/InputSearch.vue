@@ -1,8 +1,6 @@
 <script>
 export default {
-  props: {
-    modelValue: { type: String, default: "" },
-  },
+  props: { modelValue: { type: String, default: "" } },
   emits: ["submit", "update:modelValue"],
   methods: {
     updateModelValue(e) {
@@ -14,6 +12,7 @@ export default {
   },
 };
 </script>
+
 <template>
   <div class="input-group">
     <input
